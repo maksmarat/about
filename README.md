@@ -1,6 +1,6 @@
 # About
 
-Personal portfolio website for Maksyutov Marat, Junior Python Developer.
+Personal portfolio website for Maksyutov Marat, entry-level IT specialist.
 
 The site includes:
 
@@ -9,4 +9,3 @@ The site includes:
 - selected GitHub projects
 - standalone CV page
 - PDF CV fallback
-
