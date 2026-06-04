@@ -602,7 +602,8 @@ a.project-status:hover {
   padding-top: 0;
 }
 
-.resume-item > a {
+.resume-item > a,
+.resume-badge {
   align-self: start;
   padding: 8px 12px;
   border-radius: 8px;
@@ -610,6 +611,11 @@ a.project-status:hover {
   color: var(--teal);
   font-weight: 800;
   text-decoration: none;
+}
+
+.resume-badge {
+  background: rgba(105, 112, 109, 0.12);
+  color: var(--muted);
 }
 
 .resume-item ul {
