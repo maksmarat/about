@@ -1,0 +1,214 @@
+<!DOCTYPE html>
+<html lang="ru">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Maksyutov Marat | Junior Python Developer</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <header class="site-header" aria-label="Главная навигация">
+      <a class="brand" href="#home" data-tab-link="home" aria-label="На главную">
+        <span class="brand-mark">M</span>
+        <span>Maksyutov Marat</span>
+      </a>
+
+      <nav class="nav-tabs" aria-label="Разделы сайта">
+        <button class="nav-tab active" type="button" data-tab="home">Home</button>
+        <button class="nav-tab" type="button" data-tab="info">Info</button>
+        <button class="nav-tab" type="button" data-tab="projects">Projects</button>
+        <button class="nav-tab" type="button" data-tab="contact">Contact</button>
+        <a class="nav-tab nav-link" href="cv.html">CV</a>
+      </nav>
+    </header>
+
+    <main>
+      <section class="hero" id="home" data-panel="home">
+        <img
+          class="hero-image"
+          src="assets/hero-workspace.png"
+          alt="Современное рабочее место с ноутбуком и мягким дневным светом"
+        />
+        <div class="hero-overlay" aria-hidden="true"></div>
+        <div class="hero-content">
+          <p class="eyebrow">Junior Python Developer | Belgrade, Serbia</p>
+          <h1>Maksyutov Marat</h1>
+          <p class="hero-text">
+            I build API-driven tools, Discord bots, automation flows, and
+            product interfaces. My main stack is Python, async workflows,
+            discord.py, REST APIs, React, and TypeScript.
+          </p>
+          <div class="hero-stack" aria-label="Core focus">
+            <span>Python 3</span>
+            <span>discord.py</span>
+            <span>Riot API</span>
+            <span>LLM APIs</span>
+          </div>
+          <div class="hero-actions">
+            <button class="primary-action" type="button" data-tab="projects">View Projects</button>
+            <a class="secondary-action" href="cv.html">Open CV Page</a>
+          </div>
+        </div>
+        <div class="hero-highlights" aria-label="Professional highlights">
+          <div>
+            <span>Focus</span>
+            <strong>API integrations and bots</strong>
+          </div>
+          <div>
+            <span>Experience</span>
+            <strong>React/TypeScript frontend</strong>
+          </div>
+          <div>
+            <span>Extra</span>
+            <strong>Unity projects since 2018</strong>
+          </div>
+        </div>
+      </section>
+
+      <section class="content-panel hidden" id="info" data-panel="info" aria-hidden="true">
+        <div class="section-heading">
+          <p class="eyebrow">Info</p>
+          <h2>Profile, skills, education</h2>
+        </div>
+        <div class="profile-layout">
+          <div class="profile-block">
+          <h3>Professional Summary</h3>
+          <p>
+            Junior Python Developer focused on API integrations, Discord bots,
+            automation, and asynchronous workflows. Built RiftWatcher, a Python
+            Discord bot using discord.py and Riot API for League of Legends
+            statistics, live game tracking, and automatic notifications. Also
+            has experience with LLM API integration, React/TypeScript frontend
+            development, Git, Docker, Linux, algorithms, and data structures.
+          </p>
+          </div>
+          <aside class="profile-aside" aria-label="Quick profile facts">
+            <span>Open to Junior Python roles</span>
+            <span>Remote / Belgrade</span>
+            <span>English B1</span>
+          </aside>
+        </div>
+
+        <div class="info-grid">
+          <article class="info-card">
+            <span class="card-number">01</span>
+            <h3>Python</h3>
+            <p>Python 3, discord.py, asynchronous programming, JSON processing, API integrations, bot development.</p>
+          </article>
+          <article class="info-card">
+            <span class="card-number">02</span>
+            <h3>APIs & Web</h3>
+            <p>REST APIs, HTTP/JSON workflows, LLM API integration, JavaScript, TypeScript, React, HTML, CSS.</p>
+          </article>
+          <article class="info-card">
+            <span class="card-number">03</span>
+            <h3>Tools & CS</h3>
+            <p>Git, GitHub, Docker, Linux, GitHub Pages, algorithms, data structures, OOP, C, C++, C#.</p>
+          </article>
+        </div>
+
+        <div class="detail-grid">
+          <article class="detail-panel">
+            <h3>Experience</h3>
+            <p><strong>Frontend Developer</strong><br />LangLearningPlatform - Language Learning Startup | May 2023 - November 2023</p>
+            <p>React and TypeScript frontend features, LLM API workflows, interactive learning logic, responsive layouts, and theme system.</p>
+          </article>
+          <article class="detail-panel">
+            <h3>Additional</h3>
+            <div class="skill-cloud" aria-label="Additional skills">
+              <span>Unity 2D/3D</span>
+              <span>UI</span>
+              <span>Lighting</span>
+              <span>Multiplayer</span>
+              <span>Netcode</span>
+              <span>Steam integration</span>
+            </div>
+          </article>
+          <article class="detail-panel">
+            <h3>Education</h3>
+            <p><strong>Novosibirsk State University</strong><br />Mathematics and Computer Science | 2022 - 2024</p>
+            <p><strong>School 21 (Sberbank)</strong><br />C / C++ development | 2023 - 2025</p>
+          </article>
+          <article class="detail-panel">
+            <h3>Languages</h3>
+            <p>Russian - Native<br />English - B1</p>
+            <p>Game development experience since 2018 using Unity; hackathons and team projects experience.</p>
+          </article>
+        </div>
+      </section>
+
+      <section class="content-panel hidden" id="projects" data-panel="projects" aria-hidden="true">
+        <div class="section-heading">
+          <p class="eyebrow">Projects</p>
+          <h2>Selected GitHub projects</h2>
+        </div>
+        <div class="project-list">
+          <article class="project-row">
+            <div>
+              <h3>RiftWatcher</h3>
+              <div class="project-tech" aria-label="RiftWatcher stack">
+                <span>Python</span>
+                <span>discord.py</span>
+                <span>Riot API</span>
+                <span>Slash commands</span>
+              </div>
+              <p>
+                Discord bot built with Python, discord.py, Riot API, and Discord
+                slash commands for League of Legends player statistics, live game
+                tracking, match breakdowns, automatic notifications, API error
+                handling, and structured data processing.
+              </p>
+            </div>
+            <a class="project-status" href="https://github.com/maksmarat/RiftWatcher" target="_blank" rel="noreferrer">GitHub</a>
+          </article>
+          <article class="project-row">
+            <div>
+              <h3>LangLearningPlatform</h3>
+              <div class="project-tech" aria-label="LangLearningPlatform stack">
+                <span>React</span>
+                <span>TypeScript</span>
+                <span>LLM API</span>
+                <span>GitHub Pages</span>
+              </div>
+              <p>
+                Web platform for learning foreign languages with interactive
+                tasks, LLM-based assistance, instant feedback, mistake
+                explanations, vocabulary support, responsive UI, navigation, and
+                light/dark theme support.
+              </p>
+            </div>
+            <a class="project-status" href="https://github.com/Amir837/langleraningplatform" target="_blank" rel="noreferrer">GitHub</a>
+          </article>
+        </div>
+      </section>
+
+      <section class="content-panel hidden" id="contact" data-panel="contact" aria-hidden="true">
+        <div class="section-heading">
+          <p class="eyebrow">Contact</p>
+          <h2>Contacts</h2>
+        </div>
+        <div class="contact-layout">
+          <div class="contact-copy">
+            <p>
+              Available for Junior Python Developer opportunities, API
+              integrations, Discord bot development, automation tasks, and
+              frontend work with React and TypeScript.
+            </p>
+            <div class="contact-meta">
+              <span>Belgrade, Serbia</span>
+              <span>+381 65 3501 548</span>
+            </div>
+          </div>
+          <div class="contact-links" aria-label="Контактные ссылки">
+            <a href="mailto:maksmarat164@gmail.com">maksmarat164@gmail.com</a>
+            <a href="tel:+381653501548">+381 65 3501 548</a>
+            <a href="https://github.com/maksmarat" target="_blank" rel="noreferrer">GitHub: maksmarat</a>
+            <a href="cv.html">CV page</a>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <script src="script.js"></script>
+  </body>
+</html>
